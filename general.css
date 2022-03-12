@@ -118,7 +118,13 @@ table {
 }
 
 
+.center-1{
+    align-items: center;
 
+    }
+.center-2{
+    justify-content: center;
+}
 /*Customize*/
 
 
@@ -143,31 +149,39 @@ table {
         left: 0px;
         right: 0px;
     }
-	header a{
-        font-family: Roboto;
-        font-size: 16px;
-        color: white;
-		line-height: 19px;
-        text-decoration: none;
-        padding: 30px;
+    .main-logo{
+        margin: 20px;
     }
-	.center-1{
-        align-items: center;
+    header a{
+        font-family: Roboto;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+	header a.hover-1{
+        line-height: 19px;
+        padding: 10px;
+        margin: 20px 10px;
+    }
 
-	}
-	.center-2{
-        justify-content: center;
+    .hover-1:hover{
+        background-color: rgba(208, 79, 71, 1);
 
-	}
-	header h4{
+    }
+  
+	header .button-menu{
         font-size: 20px;
         background-color: rgba(208, 79, 71, 1);
-        padding: 10px 20px 10px 20px;
+        padding: 10px ;
         text-align: center;
         margin: 0px;
-        font-weight: bold;
+        font-weight: 700;
         
     }
+      .button-menu:hover{
+        background-color: rgba(93,178,196,1);
+    }
+
 /*section-1*/
 
     .bg1{
@@ -414,6 +428,10 @@ table {
             margin: 60px auto 30px;
             padding: 20px;
      }
+     .item{
+        text-align: justify;
+        padding: 0px 300px;
+     }
      .section-8-content{
         color: white;
     margin-top: 20px;
@@ -429,11 +447,46 @@ table {
     width: 2rem;
     transform: translateY(-50%);
     margin: 0 0.5rem;}
+   
 
-    
+   .owl-nav .owl-prev {
+    position: absolute;
+    left: 120px;
+    top: 20px;
+    size: 40px;
+    }
+    span{
+        font-size: 60px;
+        font-weight: bolder;
+        color: black;
+    }
+    .owl-nav .owl-next {
+    position: absolute;
+    right: 120px;
+    top: 20px;
+    font-size: 40px;
+    }
+    .owl-dots{
+        text-align: center;
 
- 
+    }
+    .owl-nav button.owl-prev, 
+    .owl-carousel button.owl-dot{
+        color: black;
+        height: 15px;
+        width: 15px;
+        background-color: black;
+        border-radius: 50%;
+        cursor: pointer;
+        outline: none;
+        margin: 10px 10px 30px 10px;
+    }
 
+    .owl-nav button.owl-prev, 
+    .owl-carousel button.owl-dot: hover{
+        background-color: white;
+
+    }
 /*section-9*/
     .h4-1{
        color: black;

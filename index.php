@@ -25,16 +25,17 @@ $do_sql = new database();
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Montserrat:wght@100;600&family=Roboto+Condensed:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Montserrat:wght@100;600&family=Roboto+Condensed:wght@700&family=Roboto:wght@100&family=Rubik:wght@300;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="genera.css">
+	<!-- <link rel="stylesheet" type="text/css" href="general.css"> -->
 	<link rel="stylesheet" href="owl.carousel.min.css">
 	<link rel="stylesheet" href="owl.theme.default.min.css">
 	<script src="jquery.min.js"></script>
 	<script src="owl.carousel.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="general.css">
 	<script>
 		$(document).ready(function(){
 			$('.owl-carousel').owlCarousel({
 			    loop:true,
-			    margin:10,
+			    margin:20,
 			    nav:true,
 			    responsive:{
 			        0:{
@@ -47,6 +48,7 @@ $do_sql = new database();
 			            items:1
 			        }
 			    }
+
 			});
 
 		});
@@ -64,20 +66,20 @@ $do_sql = new database();
 						<img class="main-logo" src="main-logo1.png">
 						
 					</div>
-					<div class="col-9">
+					<div class="col-9 ">
 						<ul class="row center-2">
-								<li><a href="index.php">About Us</a></li>
-								<li><a href="Postcast.html">Postcast</a></li>
-								<li><a href="Courses.html">Courses</a></li>
-								<li><a href="LearningMethods.html">Learning Methods</a></li>
-								<li><a href="Resources.html">Resources</a></li>
-								<li><a href="Contact.html">Contact</a></li>
+								<li><a href="index.php" class="hover-1">About Us</a></li>
+								<li><a href="Postcast.html" class="hover-1">Postcast</a></li>
+								<li><a href="Courses.html" class="hover-1">Courses</a></li>
+								<li><a href="LearningMethods.html" class="hover-1">Learning Methods</a></li>
+								<li><a href="Resources.html" class="hover-1">Resources</a></li>
+								<li><a href="Contact.html" class="hover-1">Contact</a></li>
 
 						</ul>
 						
 					</div>
 					<div class="col-2">
-						<a href="resgister.php"><h4>REGISTER NOW</h4></a>
+						<a href="resgister.php" class="button-menu">REGISTER NOW</a>
 						
 						
 					</div>
@@ -307,59 +309,52 @@ $do_sql = new database();
 				</div>
 				
 			</div>
-			<div class="row center-1">
-				<div class="col-12 owl-carousel">
-					<div class="item">
-						<p>
-							Vừa học xong khóa RE và không biết nói gì hơn với 2 chữ quá tuyệt!! Thầy giảng bài và soạn giáo án cực kì tâm huyết. Nội dung chỉ trong 8 buổi nhưng đã phác họa cho mình cái nhìn rõ hơn về việc học anh văn chuyên ngành, được tiếp cận thêm nhiều công cụ giúp ích cho việc đọc hiểu các tài liệu y khoa. Học xong mình cảm thấy đầu mình sáng ra nhiều lắm, còn được thầy truyền cảm hứng cho việc học nữa. Vài dòng không diễn tả hết được. Em cảm ơn thầy nhiều lắm thầy ơi!!!
-						</p>
-						<p class="section-8-content">
-							
-							Bao Tran Do Quyen
-						</p>
-						
-					</div>
-					<div class="item">
-						<p>"Mình không bít khen gì luôn vì thấy mọi người khen quá trời luôn mà toàn khen đúng ý mình 😚"
-						<br>
-						"Mình học hết cả hai khoá học rùi, thấy team Med Lang Fanatic rất tâm huyết, chỉn chu, cung cấp nhiều kiến thức, “cần câu cá” như là chỉ cho mình nên học gì,nên tìm tài liệu ở đâu, học như nào ,hay mẹo tra từ, mình chỉ sợ nhiều kiến thức đồ sộ quá mình không học hết thui 😅"
-						</p>
-						<p class="section-8-content">
-							
-							Huyen Le
-						</p>
-
-						
-					</div>
-					<div class="item">
-						<p>Đội ngũ Med Lang Fanatic phải nói là đều siêu siêu giỏi và siêu siêu có tâm. Yêu thương các anh chị rất nhiều và em sẽ luôn ủng hộ các khóa học khi sắp xếp được thời gian ạ 🥰</p>
-						<p class="section-8-content">
-							
-							Jenny Pham
-						</p>
-					</div>
-					<div class="item">
-						<p>Sau khi tham gia khóa học, mình cảm thấy nhân sinh tươi sáng hẳn 😁 Thật sự anh Hưng và đội ngũ MedLangFanatic rất có tâm, các khóa học của anh đều có hẳn một lộ trình tỉ mỉ và đầu tư. Tất nhiên là nếu cố gắng duy trì “cần câu chất lượng” đấy thì mình tin rằng các bạn sẽ level up nhanh thôi 😉
-						<br>
-						Cảm ơn anh và mọi người vì đã tạo ra những khóa học bổ ích ạ!
-						</p>
-						<p class="section-8-content">
-							
-							Tran H. Uyen
-						</p>
-					</div>
-					
-				</div>
-
+			<div class=" play-slider">
 				
+					<div class="owl-carousel">
+						<div class="item">
+							<p>
+								Vừa học xong khóa RE và không biết nói gì hơn với 2 chữ quá tuyệt!! Thầy giảng bài và soạn giáo án cực kì tâm huyết. Nội dung chỉ trong 8 buổi nhưng đã phác họa cho mình cái nhìn rõ hơn về việc học anh văn chuyên ngành, được tiếp cận thêm nhiều công cụ giúp ích cho việc đọc hiểu các tài liệu y khoa. Học xong mình cảm thấy đầu mình sáng ra nhiều lắm, còn được thầy truyền cảm hứng cho việc học nữa. Vài dòng không diễn tả hết được. Em cảm ơn thầy nhiều lắm thầy ơi!!!
+							</p>
+							<p class="section-8-content">
+								
+								Bao Tran Do Quyen
+							</p>
+						
+						</div>
+						<div class="item">
+							<p>"Mình không bít khen gì luôn vì thấy mọi người khen quá trời luôn mà toàn khen đúng ý mình 😚"
+							<br>
+							"Mình học hết cả hai khoá học rùi, thấy team Med Lang Fanatic rất tâm huyết, chỉn chu, cung cấp nhiều kiến thức, “cần câu cá” như là chỉ cho mình nên học gì,nên tìm tài liệu ở đâu, học như nào ,hay mẹo tra từ, mình chỉ sợ nhiều kiến thức đồ sộ quá mình không học hết thui 😅"
+							</p>
+							<p class="section-8-content">
+								
+								Huyen Le
+							</p>
+						</div>
+						<div class="item">
+							<p>Đội ngũ Med Lang Fanatic phải nói là đều siêu siêu giỏi và siêu siêu có tâm. Yêu thương các anh chị rất nhiều và em sẽ luôn ủng hộ các khóa học khi sắp xếp được thời gian ạ 🥰</p>
+							<p class="section-8-content">
+								
+								Jenny Pham
+							</p>
+						</div>
+						<div class="item">
+							<p>Sau khi tham gia khóa học, mình cảm thấy nhân sinh tươi sáng hẳn 😁 Thật sự anh Hưng và đội ngũ MedLangFanatic rất có tâm, các khóa học của anh đều có hẳn một lộ trình tỉ mỉ và đầu tư. Tất nhiên là nếu cố gắng duy trì “cần câu chất lượng” đấy thì mình tin rằng các bạn sẽ level up nhanh thôi 😉
+							<br>
+							Cảm ơn anh và mọi người vì đã tạo ra những khóa học bổ ích ạ!
+							</p>
+							<p class="section-8-content">
+								
+								Tran H. Uyen
+							</p>
+						</div>
+
+						
+					</div>
 			</div>
 			
-			
-			
-			
-
-
-			
+		
 		</div>
 
 		<div class=" section-9">
